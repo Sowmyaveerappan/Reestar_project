@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.section-one__page{
+    color: grey;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.section-two__img1,.section-two__img2,.section-two__img3,.section-two__img4{
+    border: solid black 1px;
+    margin-right: 10px;
+}
+.section-two__button{
+    background-color: black;
+    color: beige;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+.section-two h4,p{
+    text-align: center;
+}
+.section-three{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: beige;
+    margin: 10px;
+}
+.section-three__form{
+    padding:5px;
+    
+}
+.form-name,.form-age,.form-email{
+    margin:5px;
+
+
+}
+.form-name{
+    position: relative;
+    left: 5px;
+}
+.form-age{
+    position: relative;
+    left: 10px;
+}
+.section-three__send{
+    background-color: yellow;
+    width:450px;
+}
+
+
+.age{
+    position: relative;
+    right: 8px;
+}
+
+
+
